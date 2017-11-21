@@ -7,6 +7,18 @@
     <groupId>prx.sun.demo.springboot.module</groupId>
     <artifactId>springboot-cloud-module</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.5.8.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
+    <modules>
+        <module>eureka-client-demo</module>
+        <module>eureka-server-demo</module>
+    </modules>
 
 </project>
